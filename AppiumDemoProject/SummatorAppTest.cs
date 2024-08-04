@@ -33,8 +33,8 @@ namespace AppiumDemoProject
         [OneTimeTearDown]
         public void TearDown()
         { 
-            _driver.Quit();
-            _driver.Dispose();
+            _driver?.Quit();
+            _driver?.Dispose();
             _appiumLocalService?.Dispose();
         
         }
