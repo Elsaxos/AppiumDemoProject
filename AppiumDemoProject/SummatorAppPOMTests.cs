@@ -50,7 +50,7 @@ namespace AppiumDemoProject
         }
 
         [Test]
-        public void TestWithInValidData_ClickOnlyCalcButton()
+        public void TestWithInValidData_ClickOnly_CalcButton()
         {
             _summatorPage.ClearFields();
             _summatorPage.calcButton.Click();
