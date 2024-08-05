@@ -60,7 +60,7 @@ namespace AppiumDemoProject
         }
 
         [Test]
-        public void TestWithInValidData_FilldOnlyFirstField()
+        public void TestWithInValidData_FilldOnly_FirstField()
         {
             _summatorPage.ClearFields();
             _summatorPage.field1.SendKeys("1");
